@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health and Wellness Professionals</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Health and Wellness Professionals</h1>
+        <nav>
+            <ul>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#appointment">Appointment</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="services">
+        <h2>Services Offered</h2>
+        <ul>
+            <li>Massage Therapy</li>
+            <li>Yoga Classes</li>
+            <li>Nutrition Counseling</li>
+            <li>Meditation Sessions</li>
+        </ul>
+    </section>
+    
+    <section id="appointment">
+        <h2>Appointment Scheduling</h2>
+        <p id="confirmation-message" style="display: none; color: green;">Appointment booked successfully!</p> <!-- Added message -->
+        <p>To schedule an appointment, please fill out the form below:</p>
+        <form id="appointment-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="date">Preferred Date:</label>
+            <input type="date" id="date" name="date" required><br><br>
+            <label for="time">Preferred Time:</label>
+            <input type="time" id="time" name="time" required><br><br>
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+    
+    <section id="blog">
+        <h2>Blog Posts</h2>
+        <article>
+            <h3>5 Benefits of Regular Exercise</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempus, magna a maximus luctus, lorem ipsum...</p>
+        </article>
+        <article>
+            <h3>Tips for Healthy Eating Habits</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempus, magna a maximus luctus, lorem ipsum...</p>
+        </article>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>For inquiries or questions, please contact us:</p>
+        <p>Email: info@example.com</p>
+        <p>Phone: 123-456-7890</p>
+    </section>
+    
+    <footer>
+        &copy; 2024 Health and Wellness Professionals. All rights reserved.
+    </footer>
+    <script src="script.js"></script> <!-- Added JavaScript file -->
+</body>
+</html>
